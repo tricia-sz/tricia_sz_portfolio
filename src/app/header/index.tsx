@@ -4,12 +4,11 @@ import Link from 'next/link'
 import { AiFillHome, AiOutlineCodeSandbox } from 'react-icons/ai'
 import { FaBuffer } from 'react-icons/fa'
 import { GiSkills } from 'react-icons/gi'
-import { Logo } from './logo/Logo'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { BsWhatsapp } from 'react-icons/bs'
 import Image from 'next/image'
 import waveTop from "@/app/header/wavestop.svg"
-import { BiChip, BiSolidCat } from 'react-icons/bi'
+import { BiSolidCat } from 'react-icons/bi'
 
 
 export function Header() {
@@ -17,7 +16,7 @@ export function Header() {
 
   return (
     <>
-        <header className="w-full flex items-center px-2 py-4 bg-slate-900 h-40 shadow-sm ">
+        <header className="w-full flex items-center px-2 py-4 bg-slate-900 h-40 shadow-sm uppercase">
             <div className=" space-x-4 w-full flex items-center justify-between max-w-7xl mx-auto">
                 <Link href="/" className="hover:scale-110 transition-transform">
                     {/* <Logo /> */}
@@ -32,7 +31,7 @@ export function Header() {
             
                 <Link
                     href="/"
-                    className="flex text-slate-400 gap-1 items-center hover:text-orange-500 duration-300 hover:scale-110 transition-transform"
+                    className="flex text-slate-400 gap-2 items-center hover:text-orange-500 duration-300 hover:scale-110 transition-transform"
                 > 
                     <AiFillHome size={26} className=""/>
                     <p className=" hover:text-sky-500 duration-300">Home</p>
@@ -40,21 +39,21 @@ export function Header() {
            
                 <Link
                     href="/"
-                    className="flex text-slate-400 gap-1 items-center hover:text-orange-500 duration-300 hover:scale-110 transition-transform"
+                    className="flex text-slate-400 gap-2 items-center hover:text-orange-500 duration-300 hover:scale-110 transition-transform"
                 > 
                     <FaBuffer size={26} className=""/>
                     <p className=" hover:text-sky-500 duration-300">My Projects</p>
                 </Link>
                 <Link
                     href="/"
-                    className="flex text-slate-400 gap-1 items-center hover:text-orange-500 duration-300 hover:scale-110 transition-transform"
+                    className="flex text-slate-400 gap-2 items-center hover:text-orange-500 duration-300 hover:scale-110 transition-transform"
                 > 
                     <GiSkills size={26} className=""/>
                     <p className=" hover:text-sky-500 duration-300">Experience</p>
                 </Link>
                 <Link
                     href="/"
-                    className="flex text-slate-400 gap-1 items-center hover:text-orange-500 duration-300 hover:scale-110 transition-transform"
+                    className="flex text-slate-400 gap-2 items-center hover:text-orange-500 duration-300 hover:scale-110 transition-transform"
                 > 
                     <AiOutlineCodeSandbox size={26} className=""/>
                     <p className=" hover:text-sky-500 duration-300">Skills</p>
