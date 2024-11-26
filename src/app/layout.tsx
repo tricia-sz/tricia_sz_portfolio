@@ -1,9 +1,17 @@
 import type { Metadata } from "next";
-import {Josefin_Sans} from "next/font/google";
+import {Josefin_Sans, Inter} from "next/font/google";
 import "./globals.css";
 import { Header } from "./header";
 
 const josefin = Josefin_Sans({
+    weight: ['400', '700'],
+    style: ['normal', 'italic'],
+    subsets: ['latin'],
+    display: 'swap',
+    variable: '--font-jose',
+});
+
+const inter = Inter({
     weight: ['400', '700'],
     style: ['normal', 'italic'],
     subsets: ['latin'],
