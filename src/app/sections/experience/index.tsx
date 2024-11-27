@@ -1,5 +1,5 @@
-import Title from "../title"
-import { CardExperience } from "./CardExperience"
+import Title from "../../components/titleone"
+import { CardExperience } from "./components/cardexperience"
 
 export function Experience() {
   return (

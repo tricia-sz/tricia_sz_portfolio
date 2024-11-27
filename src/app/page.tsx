@@ -1,8 +1,8 @@
-import { Experience } from "./sections/Experience/Experience";
-import MyProjects from "./sections/MyProjects/MyProjects";
-import { Skills } from "./sections/Skills/Skills";
-import Title from "./sections/title";
-import TitleTwo from "./sections/titletwo";
+import CatchPhrase from "./sections/catchphrase";
+import Contact from "./sections/contact";
+import { Experience } from "./sections/experience";
+import MyProjects from "./sections/myprojects";
+import { Skills } from "./sections/skill";
 import { Welcome } from "./sections/welcome";
 
 
@@ -13,7 +13,10 @@ export default function Home() {
         <Welcome />
         <Experience />
         <Skills />
+        {/* <CatchPhrase /> */}
         <MyProjects />
+        <Contact />
+        {/* <TitleFour title="TESTE"/> */}
 
 
     </main>

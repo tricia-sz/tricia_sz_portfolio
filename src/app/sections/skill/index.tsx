@@ -4,11 +4,14 @@ import { BiLogoDocker, BiLogoJavascript, BiLogoPostgresql } from "react-icons/bi
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiNestjs, SiPython } from "react-icons/si";
 import { Container } from "@/app/components/container";
-import Title from "../title";
+import Title from "../../components/titleone";
+
+import Image from "next/image";
 
 export function Skills() {
   return (
     <Container>
+     
         {/* <Title title="SKILLS"/> */}
       <div className="flex flex-wrap justify-between text-blue-950 mt-16 mb-32 ">
         <div className="text-orange-600 justify-center text-center  hover:text-amber-700 hover:scale-110 transition-transform">

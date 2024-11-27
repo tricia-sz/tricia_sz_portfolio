@@ -1,22 +1,21 @@
 import Image from "next/image";
 import Link from 'next/link';
 import { BiRightArrowCircle } from "react-icons/bi";
-import camping from "@/app/sections/MyProjects/img/camping.png"
-import agua from "@/app/sections/MyProjects/img/agua.png"
-import montanhas from "@/app/sections/MyProjects/img/montanhas.png"
-import pychat from "@/app/sections/MyProjects/img/pychat.png"
-import head from "@/app/sections/MyProjects/img/head.png"
-import pyautogui from "@/app/sections/MyProjects/img/pyautogui.png"
-import pyins from "@/app/sections/MyProjects/img/pyins.png"
-import cabrita from "@/app/sections/MyProjects/img/cabrita.png"
-import Title from "../../title";
-import TitleTwo from "../../titletwo";
+import camping from "@/app/sections/myprojects/img/camping.png"
+import agua from "@/app/sections/myprojects/img/agua.png"
+import montanhas from "@/app/sections/myprojects/img/montanhas.png"
+import pychat from "@/app/sections/myprojects/img/pychat.png"
+import head from "@/app/sections/myprojects/img/head.png"
+import pyautogui from "@/app/sections/myprojects/img/pyautogui.png"
+import pyins from "@/app/sections/myprojects/img/pyins.png"
+import cabrita from "@/app/sections/myprojects/img/cabrita.png"
+
 
 export default function ProjectCards() {
   return (
     <>
       <Link href={""}>
-        <section className='w-full bg-slate-900 border border-slate-700 rounded-lg p-4 mb-5 shadow-lg shadow-slate-600/10'>
+        <section className='w-full bg-slate-950 border border-slate-700 rounded-lg p-4 mb-5 shadow-lg shadow-slate-600/10'>
 
           <div className='relative w-full h-56 hover:scale-105 transition-all duration-300'>
               <Image

@@ -12,18 +12,19 @@ const inter = Inter({
 
 interface TitleTwoProps {
     title: string | ""
+    className?: string
 }
 
-export default function TitleTwo({title}:TitleTwoProps) {
+export default function TitleTwo({title, className}:TitleTwoProps) {
 
   return (
    
     <section className="w-full   text-center items-center  justify-center">
           <div  className={inter.className}>
-            <h2 className="text-6xl -tracking-tighter leading-10 opacity-100 font-black ">{title}</h2>
+            <h2 className="text-7xl -tracking-tighter leading-10 opacity-100 font-black ">{title}</h2>
           </div>
         <div className={inter.className}>
-            <div className="w-full rounded-full  h-24 bg-gradient-to-r from-purple-600 to-green-700 blur-3xl ">
+            <div className="w-full rounded-full  h-24 bg-gradient-to-r from-purple-500 to-green-700 blur-3xl ">
             </div>
         </div>
     </section>
